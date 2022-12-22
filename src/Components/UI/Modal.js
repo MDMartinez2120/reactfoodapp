@@ -12,9 +12,10 @@ const ModalOverlay = (props) => {
         <div className={classes.content}>{props.children}</div>
     </div>
 };
+const portalElement = document.getElementById('overlays');
 
 const Modal = (props) => {
-    const portalElement = document.getElementById('overlays');
+
 
     return (
         <Fragment>
